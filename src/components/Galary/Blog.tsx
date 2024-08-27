@@ -18,8 +18,8 @@ const Blog = () => {
         </p>
       </div>
       <div className="max-w-screen-xl relative">
-        <div className="grid grid-cols-3 gap-3 relative ">
-          <div className="w-[380px] h-[450px] rounded-xl shadow-darkText/30 shadow-lg ">
+        <div className="grid grid-cols-3 gap-1 relative ">
+          <div className="w-[340px] h-[450px] rounded-xl shadow-darkText/30 shadow-lg ">
             <div>
               <Image src={blog1} alt="blog-one" className="rounded-xl" />
               <div className="flex items-center gap-3 mt-4">
@@ -48,7 +48,7 @@ const Blog = () => {
               </div>
             </div>
           </div>
-          <div className="w-[380px] h-[450px] rounded-xl shadow-darkText/30 shadow-lg ">
+          <div className="w-[340px] h-[450px] rounded-xl shadow-darkText/30 shadow-lg ">
             <div>
               <Image src={blog3} alt="blog-one" className="rounded-xl" />
               <div className="flex items-center gap-3 mt-4">
@@ -77,7 +77,7 @@ const Blog = () => {
               </div>
             </div>
           </div>
-          <div className="w-[380px] h-[450px] rounded-xl shadow-darkText/30 shadow-lg ">
+          <div className="w-[340px] h-[450px] rounded-xl shadow-darkText/30 shadow-lg ">
             <div>
               <Image src={blog2} alt="blog-one" className="rounded-xl" />
               <div className="flex items-center gap-3 mt-4">
@@ -118,7 +118,7 @@ const Blog = () => {
           <Image
             src={chicken}
             alt="bg chicken"
-            className="w-40 absolute top-40 -right-40"
+            className="w-40 absolute top-40 -right-28"
           />
         </div>
       </div>
