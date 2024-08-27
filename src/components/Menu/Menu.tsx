@@ -1,12 +1,11 @@
 import Image from "next/image";
-import "../../components/Style/style.css"
+import "../../components/Style/style.css";
 import { category1, category2, category3, category4 } from "../../..";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 
-
 const Menu = () => {
   return (
-    <div className="max-w-screen-lg">
+    <div className="max-w-screen-lg mb-20">
       <div>
         <h3 className="text-2xl font-bold mb-16 mt-16">
           Browse Our <span className="spFont text-redText ">Menu</span>
@@ -77,6 +76,9 @@ const Menu = () => {
         <span className=" border border-yellowText text-darkText hover:text-whiteText transition-all duration-300 cursor-pointer hover:bg-yellowText h-14 w-14 flex items-center justify-center text-xl rounded-full m-0 ">
           <FaArrowRight />
         </span>
+      </div>
+      <div>
+       
       </div>
     </div>
   );

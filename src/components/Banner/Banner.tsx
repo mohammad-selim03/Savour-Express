@@ -9,8 +9,8 @@ const Banner = () => {
     <div>
       <div className="relative">
         <Image src={container} alt="bannerimg " />
-        <div className="absolute top-0 left-40 max-w-screen-xl bg-redText rounded-b-full text-whiteText">
-          <TopHeader />
+        <div className="absolute top-0 left-40 max-w-screen-xl bg-redText rounded-b-full text-whiteText ">
+         <div className="sticky top-0 z-20"> <TopHeader /></div>
         </div>
         <div className="absolute top-[60px] right-80 max-w-screen-xl bg-whiteText shadow-lg shadow-darkText rounded-full text-whiteText">
           <MiddleHeader />

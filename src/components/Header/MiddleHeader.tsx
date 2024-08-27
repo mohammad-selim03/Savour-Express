@@ -3,6 +3,7 @@ import Link from "next/link";
 import { FaOpencart, FaRegUser } from "react-icons/fa6";
 import { IoSearch } from "react-icons/io5";
 import { logo } from "../../..";
+import { MdOutlineShoppingBag } from "react-icons/md";
 
 const MiddleHeader = () => {
   const menus = [
@@ -32,7 +33,7 @@ const MiddleHeader = () => {
     },
   ];
   return (
-    <div className="flex items-center justify-center gap-5 py-6 px-20">
+    <div className="flex items-center justify-center gap-5 py-6 px-20 sticky  z-20">
       <div>
         <h3 className="text-xl font-extrabold text-darkText flex items-center gap-2"><span className="-mt-2"><Image src={logo} alt="logo" className="w-10 h-10"/></span> Savour Express</h3>
       </div>
@@ -53,9 +54,9 @@ const MiddleHeader = () => {
           <IoSearch size={20} />{" "}
         </span>
         
-        <span className="border border-darkText/20 h-10 w-10 flex items-center justify-center rounded-full"><FaOpencart size={20} /></span>
+        <span className="border border-darkText/20 h-10 w-10 flex items-center justify-center rounded-full"><MdOutlineShoppingBag size={22} /></span>
         <span className="border border-darkText/20 h-10 w-10 flex items-center justify-center rounded-full">
-          <FaRegUser size={20} />
+          <FaRegUser size={18} />
         </span>
       </div>
     </div>

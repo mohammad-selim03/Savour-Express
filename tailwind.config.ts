@@ -14,6 +14,8 @@ const config: Config = {
       lightBg: "#FF9D2D",
       whiteText: "#FFFFFF",
       darkText: "#000000",
+      bgDarkBlue: "#010F1C",
+      bgFooter: "#010F1C",
     },
   },
   plugins: [],
