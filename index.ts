@@ -23,7 +23,7 @@ import chilibg from "./src/assets/receipes/chili.png";
 import testimonialFood from "./src/assets/receipes/testimonial.png";
 import testimonialTree from "./src/assets/receipes/testimonials.png";
 import quote from "./src/assets/receipes/quote.png";
-import tablist from "./src/assets/receipes/Tablist.png";
+import tablist from "./src/assets/receipes/tablist.png";
 import user from "./src/assets/receipes/user.png";
 import fod1 from "./src/assets/receipes/fod1.png";
 import fod2 from "./src/assets/receipes/fod2.png";
