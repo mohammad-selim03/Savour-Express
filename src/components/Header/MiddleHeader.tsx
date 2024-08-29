@@ -39,8 +39,8 @@ const MiddleHeader = () => {
       </div>
       <div className="flex items-center gap-2 md:gap-5">
         {menus?.map((menu, index) => (
-          <div>
-            <Link href={menu?.link} key={index}>
+          <div key={index}>
+            <Link href={menu?.link} >
               <p className="text-darkText font-semibold capitalize text-sm md:text-md lg:text-lg">
                 {menu?.title}
               </p>
