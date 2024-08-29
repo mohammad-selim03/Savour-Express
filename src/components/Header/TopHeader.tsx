@@ -11,9 +11,9 @@ import { MdEmail } from "react-icons/md";
 
 const TopHeader = () => {
   return (
-    <div className="flex items-center justify-between py-4 px-32">
-      <div className="px-10 flex  items-center gap-5">
-        <p className="flex items-center gap-3">
+    <div className=" items-center justify-between py-4 px-1 lg:px-32 hidden xl:flex">
+      <div className="px-10 flex  items-center gap-5 ">
+        <p className="flex items-center gap-3 text-xs md:text-sm">
           <span className="bg-whiteText/40 flex items-center justify-center rounded-full h-7 w-7"><FaLocationDot /></span> Eskaton Road, Dhaka, Bangladesh
         </p>
         <p className="flex items-center gap-3">

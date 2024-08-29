@@ -25,13 +25,13 @@ const Testimonials = () => {
               recaptiualize multifunctional materials.
             </p>
           </div>
-          <div className="flex items-center">
+          <div className="flex items-center p-3 md:p-0">
             <div>
               <Image src={tablist} alt="tablist" />
             </div>
-            <div className="bg-whiteText rounded-xl shadow-lg shadow-darkText/40 w-[420px] h-72 px-5 overflow-hidden">
-              <Image src={quote} alt="quote" />
-              <p className="text-darkText/80 mt-6">
+            <div className="bg-whiteText rounded-xl shadow-lg shadow-darkText/40 w-[270px] md:w-[420px] h-44 md:h-72 px-5 overflow-hidden">
+              <Image src={quote} alt="quote" className="w-10 md:w-16" />
+              <p className="text-darkText/80 mt-0 md:mt-6 text-xs md:text-sm ">
                 “Synergistically strategize interdependent <br />
                 ROI through distinctive markets. Credibly <br />
                 restore one-to-one through.”
@@ -39,7 +39,7 @@ const Testimonials = () => {
 
               <div className="flex -mt-6 items-center justify-center">
                 <div>
-                  <span className="text-yellowText flex items-center  w-28 mb-5">
+                  <span className="text-yellowText flex items-center  w-28 mb-1 mt-5 md:mt-0 md:mb-5">
                     <IoMdStar size={20} /> <IoMdStar size={20} />{" "}
                     <IoMdStar size={20} /> <IoMdStar size={20} />{" "}
                     <IoMdStar size={20} />
@@ -68,11 +68,11 @@ const Testimonials = () => {
               </div>
             </div>
             <div className="flex items-center ">
-              <Image src={testimonialTree} alt="tree" className="relative ml-20" />
+              <Image src={testimonialTree} alt="tree" className="relative ml-0 md:ml-20 w-52 md:w-full" />
               <Image
                 src={testimonialFood}
                 alt="testimonial bg "
-                className="absolute "
+                className="absolute w-52 md:w-[650px] -ml-3 md:-ml-0"
               />
             </div>
           </div>

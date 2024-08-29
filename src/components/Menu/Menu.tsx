@@ -11,75 +11,82 @@ const Menu = () => {
           Browse Our <span className="spFont text-redText ">Menu</span>
         </h3>
       </div>
-      <div className="grid grid-cols-4 ">
-        <div className="bg-whiteText/30 w-52 h-20 shadow-sm shadow-darkText/30 relative flex flex-col justify-center items-center rounded-lg">
-          <h4 className="text-extrabold text-lg">Daria Shetova</h4>
-          <p className="text-sm text-darkText/80">Delicious & Spicy</p>
-          <span className="bg-yellowText h-10 w-10 text-whiteText rounded-lg px-4 py-2 absolute top-10 right-0 flex items-center justify-center text-xl rounded-l-full cursor-pointer">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-5 md:gap-0">
+        <div className="bg-whiteText/30 w-44 md:w-52 h-20 shadow-sm shadow-darkText/30 relative flex flex-col justify-center items-center rounded-lg">
+          <h4 className="text-extrabold text-sm lg:text-lg ml-4 md:ml-0">
+            Daria Shetova
+          </h4>
+          <p className="text-xs md:text-sm text-darkText/80 ml-4 md:ml-0">
+            Delicious & Spicy
+          </p>
+          <span className="bg-yellowText h-7 md:h-10 w-5 md:w-10 text-whiteText rounded-lg px-4 py-2 absolute top-14 md:top-10 right-0 flex items-center justify-center text-xl rounded-l-full cursor-pointer">
             +
           </span>
           <div>
             <Image
               src={category2}
               alt="category1"
-              className="w-20 h-20 absolute -top-5 -left-10"
+              className="w-20 h-20 absolute -top-5 -left-5 md:-left-10"
             />
           </div>
         </div>
-        <div className="bg-whiteText/30 w-52 h-20 shadow-sm shadow-darkText/30 relative flex flex-col justify-center items-center rounded-lg">
-          <h4 className="text-extrabold text-lg">Daria Shetova</h4>
-          <p className="text-sm text-darkText/80">Delicious & Spicy</p>
-          <span className="bg-yellowText h-10 w-10 text-whiteText rounded-lg px-4 py-2 absolute top-10 right-0 flex items-center justify-center text-xl rounded-l-full cursor-pointer">
-            +
-          </span>
-          <div>
-            <Image
-              src={category3}
-              alt="category1"
-              className="w-20 h-20 absolute -top-5 -left-10"
-            />
-          </div>
-        </div>
-        <div className="bg-whiteText/30 w-52 h-20 shadow-sm shadow-darkText/30 relative flex flex-col justify-center items-center rounded-lg">
-          <h4 className="text-extrabold text-lg">Daria Shetova</h4>
-          <p className="text-sm text-darkText/80">Delicious & Spicy</p>
-          <span className="bg-yellowText h-10 w-10 text-whiteText rounded-lg px-4 py-2 absolute top-10 right-0 flex items-center justify-center text-xl rounded-l-full cursor-pointer">
-            +
-          </span>
-          <div>
-            <Image
-              src={category4}
-              alt="category1"
-              className="w-20 h-20 absolute -top-5 -left-10"
-            />
-          </div>
-        </div>
-        <div className="bg-whiteText/30 w-52 h-20 shadow-sm shadow-darkText/30 relative flex flex-col justify-center items-center rounded-lg">
-          <h4 className="text-extrabold text-lg">Daria Shetova</h4>
-          <p className="text-sm text-darkText/80">Delicious & Spicy</p>
-          <span className="bg-yellowText h-10 w-10 text-whiteText rounded-lg px-4 py-2 absolute top-10 right-0 flex items-center justify-center text-xl rounded-l-full cursor-pointer">
+        <div className="bg-whiteText/30 w-44 md:w-52 h-20 shadow-sm shadow-darkText/30 relative flex flex-col justify-center items-center rounded-lg">
+          <h4 className="text-extrabold text-sm lg:text-lg ml-4 md:ml-0">
+            Daria Shetova
+          </h4>
+          <p className="text-xs md:text-sm text-darkText/80 ml-4 md:ml-0">
+            Delicious & Spicy
+          </p>
+          <span className="bg-yellowText h-7 md:h-10 w-5 md:w-10 text-whiteText rounded-lg px-4 py-2 absolute top-14 md:top-10 right-0 flex items-center justify-center text-xl rounded-l-full cursor-pointer">
             +
           </span>
           <div>
             <Image
               src={category1}
               alt="category1"
-              className="w-20 h-20 absolute -top-5 -left-10"
+              className="w-20 h-20 absolute -top-5 -left-5 md:-left-10"
+            />
+          </div>
+        </div>
+        <div className="bg-whiteText/30 w-44 md:w-52 h-20 shadow-sm shadow-darkText/30 relative flex flex-col justify-center items-center rounded-lg">
+          <h4 className="text-extrabold text-sm lg:text-lg ml-4 md:ml-0">
+            Daria Shetova
+          </h4>
+          <p className="text-xs md:text-sm text-darkText/80 ml-4 md:ml-0">
+            Delicious & Spicy
+          </p>
+          <span className="bg-yellowText h-7 md:h-10 w-5 md:w-10 text-whiteText rounded-lg px-4 py-2 absolute top-14 md:top-10 right-0 flex items-center justify-center text-xl rounded-l-full cursor-pointer">
+            +
+          </span>
+          <div>
+            <Image
+              src={category3}
+              alt="category1"
+              className="w-20 h-20 absolute -top-5 -left-5 md:-left-10"
+            />
+          </div>
+        </div>
+        <div className="bg-whiteText/30 w-44 md:w-52 h-20 shadow-sm shadow-darkText/30 relative flex flex-col justify-center items-center rounded-lg">
+          <h4 className="text-extrabold text-sm lg:text-lg ml-4 md:ml-0">
+            Daria Shetova
+          </h4>
+          <p className="text-xs md:text-sm text-darkText/80 ml-4 md:ml-0">
+            Delicious & Spicy
+          </p>
+          <span className="bg-yellowText h-7 md:h-10 w-5 md:w-10 text-whiteText rounded-lg px-4 py-2 absolute top-14 md:top-10 right-0 flex items-center justify-center text-xl rounded-l-full cursor-pointer">
+            +
+          </span>
+          <div>
+            <Image
+              src={category4}
+              alt="category1"
+              className="w-20 h-20 absolute -top-5 -left-5 md:-left-10"
             />
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-center mt-10 ">
-        <span className=" border border-yellowText text-darkText hover:text-whiteText transition-all duration-300 cursor-pointer hover:bg-yellowText h-14 w-14 flex items-center justify-center text-xl rounded-full m-2">
-          <FaArrowLeft />
-        </span>
-        <span className=" border border-yellowText text-darkText hover:text-whiteText transition-all duration-300 cursor-pointer hover:bg-yellowText h-14 w-14 flex items-center justify-center text-xl rounded-full m-0 ">
-          <FaArrowRight />
-        </span>
-      </div>
-      <div>
-       
-      </div>
+
+      <div></div>
     </div>
   );
 };

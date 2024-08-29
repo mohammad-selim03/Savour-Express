@@ -7,8 +7,8 @@ const Blog = () => {
   return (
     <div>
       <div className="text-center">
-        <p className="text-redText font-bold">News & Blogs</p>
-        <h2 className="text-4xl font-bold mt-10 mb-10">
+        <p className="text-redText font-bold mt-20 ">News & Blogs</p>
+        <h2 className="text-4xl font-bold mb-4">
           Our Latest Foods <span className="text-redtext">News</span>
         </h2>
         <p className="text-xs text-darkText/60 mb-10">
@@ -18,7 +18,7 @@ const Blog = () => {
         </p>
       </div>
       <div className="max-w-screen-xl relative">
-        <div className="grid grid-cols-3 gap-1 relative ">
+        <div className="grid grid-cols-1 md:grid-colos-2 lg:grid-cols-3 gap-3 md:gap-1 relative ">
           <div className="w-[340px] h-[450px] rounded-xl shadow-darkText/30 shadow-lg ">
             <div>
               <Image src={blog1} alt="blog-one" className="rounded-xl" />
@@ -118,7 +118,7 @@ const Blog = () => {
           <Image
             src={chicken}
             alt="bg chicken"
-            className="w-40 absolute top-40 -right-28"
+            className="w-20 md:w-40 absolute -top-16 md:top-40 right-3 md:-right-28"
           />
         </div>
       </div>

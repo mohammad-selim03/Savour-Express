@@ -3,9 +3,9 @@ import { footer } from "../../..";
 
 const Footer = () => {
   return (
-    <footer className="bg-white dark:bg-gray-900 mt-20">
+    <footer className="bg-white dark:bg-gray-900 mt-20 hidden md:inline-block">
       <div className="relative" >
-        <Image src={footer} alt="footer" />
+        <Image src={footer} alt="footer" className="hidden md:inline-block"/>
         <div className="mx-auto w-full max-w-screen-xl absolute top-32 right-32">
         <div className="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4">
           <div>
