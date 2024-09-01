@@ -13,13 +13,13 @@ const Banner = () => {
             <TopHeader />
           </div>
         </div>
-        <div className="absolute sm:right-20 lg:right-40 xl:right-60 min-[800px]:left-52 min-[500px]:top-0 min-[1280px]:top-[60px], max-[1820px]:top-[60px] lg:w-screen-xl bg-whiteText w-[420px] h-20 -mt-20 lg:w-[1100px] shadow-lg shadow-darkText rounded-full text-whiteText">
+        <div className="absolute sm:right-20 lg:right-40 xl:right-60 min-[800px]:left-52 min-[500px]:top-0 min-[1280px]:top-[60px], max-[1820px]:top-[60px] lg:w-screen-xl bg-whiteText w-[420px] h-20 -mt-20 lg:w-[1000px] shadow-lg shadow-darkText rounded-full text-whiteText lg:top-36">
           <MiddleHeader />
         </div>
       </div>
-      <div className="flex lg:flex-row items-center justify-center absolute top-20 lg:top-40 px-4 sm:px-10 md:px-20 lg:px-32">
+      <div className="flex lg:flex-row items-center justify-between absolute top-20 lg:top-40 lg:right-[450px] gap-20 px-4 sm:px-10 md:px-20 lg:px-32">
         <div className="text-center lg:text-left text-md  sm:w-96 sm:mt-20">
-          <h1 className="text-sm w-40  sm:text-md md:text-4xl lg:text-5xl sm:w-60 sm:mt-10 font-extrabold md:mt-16 lg:-mt-20">
+          <h1 className="text-sm lg:w-full lg:mt  sm:text-md md:text-4xl lg:text-5xl sm:w-60 sm:mt-10 font-extrabold md:mt-16 lg:mt-20">
             Welcome To Our <br className="hidden lg:block" /> Savour Express{" "}
             <span className="text-redText spFont">Fast Food</span> &{" "}
             <span className="text-redText font-bold">Restaurants</span>
